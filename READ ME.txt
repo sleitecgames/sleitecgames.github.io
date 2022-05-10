@@ -1,0 +1,8 @@
+Sleix Software navigation field:
+<nav> in file_css has now a min size, 
+and therfore this min size is used for all <nav> tags
+
+Use <nav class="class_name"> on file_css and all other tags 
+so it won't be used for the same tags.
+
+But you have to do all design settings for each html!

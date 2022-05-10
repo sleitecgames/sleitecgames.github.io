@@ -1,0 +1,43 @@
+nav.description
+{
+	border: 1px solid #dedede;
+	border-radius: 4px;
+    	width: 140px;
+	margin-top: 25px;
+}
+
+ul.description
+{
+	margin: 0;
+	padding: 0;
+	width: 140px;
+}
+
+ul.description > li.description
+{
+    display:block;
+	list-style-type: none;
+	webkit-transition: all 0.2s; /* Delay beim anzeigen der Hover Backgrounds*/
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+ul.description > li.description > a.description
+{
+	color: #aaa;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+
+ul.description > li.description:hover
+{
+	background-color: rgb(40,44,47);
+}
+
+ul.description > li.description:hover > a.description
+{
+	color: rgb(255,255,255);
+]

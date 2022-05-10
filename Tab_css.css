@@ -1,0 +1,72 @@
+section.tab
+{
+	width: 700px;
+}
+
+#div_left
+{
+	
+}
+
+#div_list
+{
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	width: 249px;
+	height: 300px;
+}
+
+#div_right
+{
+	width: 250px;
+	float: right;
+    background: white;
+}
+
+li.tab
+{
+	margin-bottom: 10px;
+}
+
+#header_right
+{
+	width: 230px
+}
+
+header.main
+{	
+    background: url(bar_fat.png);
+	border-radius: 4px;
+	font-size: 25px;
+	color: black;
+	padding: 10px 10px;
+}
+
+header.tab
+{	
+    background: url(bar_fat.png);
+	border-radius: 4px;
+	font-size: 20px;
+	color: white;
+	padding: 10px 10px;
+}
+
+article.main
+{	
+    background: white;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	padding: 24px 24px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+article.tab
+{	
+    background: white;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	padding: 24px 24px;
+    margin-bottom: 20px;
+}
+	/*background: url

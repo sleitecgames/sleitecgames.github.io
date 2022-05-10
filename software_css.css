@@ -1,0 +1,62 @@
+nav.sw
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #dedede; /*Rand erzeugen*/
+	border-radius: 4px;	/*Abrunden der Kanten*/
+	
+	display: block;
+	overflow: hidden;
+	margin: 0 100px 100px 860px;
+	box-shadow: 0 2px 2px -1px rgba(0,0,0,0.055);
+	width: 140px;
+	max-width: 140px;
+}
+
+article.sw
+{
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	padding: 24px 24px;
+	position: absolute;
+	width: 700px;
+    background: white;
+}
+
+nav.sw > ul.sw
+{
+	margin: 0; /*Links grenzen oben und unten an*/
+	padding: 0; /*Links grenzen rechts und links an*/
+}
+
+nav.sw > ul.sw > li.sw
+{
+	display: block;
+	list-style-type: none; /*Entfernen der Aufzählungs Punkte*/
+	-webkit-transition: all 0.2s; /* Delay beim anzeigen der Hover Backgrounds*/
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+nav.sw > ul.sw > li.sw > a.sw
+{
+	display: block; /*Link kann nun für für seinen ganzen Platzhalter benutz werden(Click)*/
+	color: #aaa; /*Link Farbe*/
+	line-height: 56px; /*höhe der Hyperlinks*/
+	padding: 0 24px; /*ausrichtung*/
+	text-decoration: none; /*Unterstreichung geht weg*/
+}
+
+nav.sw > ul.sw > li.sw:hover
+{
+	background-color: rgb(40,44,47); /*Beim "drüberfahren" mit der Maus wird der Bereich Schwarz*/
+}
+
+nav.sw > ul.sw > li.sw:hover > a.sw
+{
+	color: rgb(255,255,255); /*Beim "drüberfahren" mit der Maus wird "Hyperlink" (<a>) wird dessen Schrift weiß*/
+}
