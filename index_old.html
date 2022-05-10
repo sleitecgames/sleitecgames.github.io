@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+	   <title>SleiTec</title>
+	   <link rel="Stylesheet" type="text/css" href="file_css.css" />
+       	   <script type="text/javascript" src="ajax_js.js" ></script>
+	   <meta name="description" content="PC/Android Software">
+	   <meta name="keywords" content="Software,Games,Android,SleiTec,PC">
+	   <meta name="author" content="Dominik Reisner">
+    </head>
+
+    <body>
+      <div id="wrap">
+        <section class="index">
+	       <img src="TopLogo.png" alt="Logo_Frame" />
+        </section>
+        
+        <nav class="index">
+	       <ul class="index">
+		      <li class="index"> 
+			     <a class="index" href="javascript:makeRequest('home')">Home</a> 
+			     <li class="index">
+				    <a class="index">Projects<span class="caret"></span></a>
+				    <div class="index">
+					   <ul class="index">
+                          <li class="index"> <a class="index" href="javascript:makeRequest('software2')">Hazelnut</a> </li>
+                        <li class="index"> <a class="index" href="javascript:makeRequest('software4')">RenegadeLine</a> </li>
+					   </ul>
+				    </div>
+		              <li class="index"> <a class="index" href="javascript:makeRequest('about')">About Me</a>
+                        <li class="index"> <a class="index" href="javascript:makeRequest('contact')">Contact</a>
+                    </li>
+                  </li> <!--li s ineinander dadruch grenzen die flächen aneinander-->
+                </li>
+		</li>
+	       </ul>
+        </nav>
+
+
+        <main id="mainID" class="index">
+            <script>
+                javascript:makeRequest('home');
+            </script>
+        </main>
+     </div>
+    </body>
+
+</html>
